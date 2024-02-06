@@ -74,11 +74,17 @@ WSGI_APPLICATION = 'Actua.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+import pymysql
+pymysql.install_as_MySQLdb()
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'tienda_db',
+        'USER': 'avnadmin',
+        'PASSWORD': 'AVNS_tjDwQo16cij_358nh5b',
+        'HOST': 'mysql-328b658-djangoproject-db.a.aivencloud.com',
+        'PORT': '22171',
     }
 }
 
