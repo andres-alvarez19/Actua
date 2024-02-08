@@ -1699,7 +1699,10 @@ select {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> chop
 .avatar.placeholder > div {
   display: flex;
   align-items: center;
@@ -1820,6 +1823,9 @@ select {
   }
 }
 
+<<<<<<< HEAD
+>>>>>>> chop
+=======
 >>>>>>> chop
 .dropdown.dropdown-open .dropdown-content,
 .dropdown:focus .dropdown-content,
@@ -1839,10 +1845,13 @@ select {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .input-bordered {
   border-color: var(--fallback-bc,oklch(var(--bc)/0.2));
 }
 
+=======
+>>>>>>> chop
 =======
 >>>>>>> chop
 .input:focus,
@@ -1892,6 +1901,7 @@ select {
   outline-offset: 2px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 :where(.menu li:empty) {
   --tw-bg-opacity: 1;
@@ -1980,6 +1990,8 @@ select {
   margin-top: 0;
 }
 
+=======
+>>>>>>> chop
 =======
 >>>>>>> chop
 .mockup-browser .mockup-browser-toolbar .input {
@@ -2093,6 +2105,7 @@ select {
   }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .badge-sm {
   height: 1rem;
@@ -2273,6 +2286,8 @@ select {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 =======
+=======
+>>>>>>> chop
 .invisible {
   visibility: hidden;
 >>>>>>> chop
@@ -2417,15 +2432,23 @@ select {
   border-color: var(--fallback-p,oklch(var(--p)/var(--tw-border-opacity)));
 }
 
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: var(--fallback-p,oklch(var(--p)/var(--tw-border-opacity)));
+}
+
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 =======
+=======
+>>>>>>> chop
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-p,oklch(var(--p)/var(--tw-bg-opacity)));
@@ -2555,6 +2578,11 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 =======
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
+}
+
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
