@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     "tienda.apps.TiendaConfig",
     "tailwind",
     "theme",
-    'django_browser_reload'
+    'django_browser_reload',
 ]
 
 TAILWIND_APP_NAME = "theme"  # Used for tailwind to work
