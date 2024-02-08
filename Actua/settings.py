@@ -38,7 +38,18 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "tienda.apps.TiendaConfig",
+    "tailwind",
+    "theme",
+    'django_browser_reload'
 ]
+
+TAILWIND_APP_NAME = "theme"  # Used for tailwind to work
+
+INTERNAL_IPS = [    # Used for tailwind to work
+    "127.0.0.1"
+]
+
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd" # Path to npm.cmd for windows
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -48,6 +59,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
 ROOT_URLCONF = 'Actua.urls'
