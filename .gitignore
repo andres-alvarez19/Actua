@@ -7,8 +7,8 @@
 /dataSources/
 /dataSources.local.xml
 #Entorno virtual
-.env
-.venv
+env
+venv
 env/
 venv/
 ENV/
