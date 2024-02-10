@@ -29,6 +29,16 @@ INSTALLED_APPS = [
     "tailwind",
     "theme",
     'django_browser_reload',
+    'cart',
+    'orders',
+    'payment',
+    'category',
+    'product',
+    'user',
+    'user_profile',
+    'shipping',
+    'rest_framework.authtoken',
+    'rest_framework',
 ]
 
 TAILWIND_APP_NAME = "theme"  # Used for tailwind to work
