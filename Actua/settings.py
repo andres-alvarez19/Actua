@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "tienda.apps.TiendaConfig",
+    "apps.tienda.apps.TiendaConfig",
     "tailwind",
     "theme",
     'django_browser_reload',

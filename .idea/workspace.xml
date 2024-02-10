@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ae621d-4824-4d69-bb13-dca303f5be91" name="Changes" comment="Inicio">
+      <change afterPath="$PROJECT_DIR$/apps/tienda/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tienda/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/images/login-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Actua/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actua/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actua/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actua/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static/css/dist/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tienda/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tienda/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tienda/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tienda/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tienda/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tienda/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tienda/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +39,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -88,7 +107,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/xdan1/PycharmProjects/Actua&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/xdan1/PycharmProjects/Actua/static/assets/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -102,14 +121,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xdan1\PycharmProjects\Actua\static\assets\images" />
       <recent name="C:\Users\xdan1\PycharmProjects\Actua" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xdan1\PycharmProjects\Actua\apps" />
       <recent name="C:\Users\xdan1\PycharmProjects\Actua\static" />
       <recent name="C:\Users\xdan1\PycharmProjects\Actua\templates" />
       <recent name="C:\Users\xdan1\PycharmProjects\Actua" />
       <recent name="C:\Users\xdan1\PycharmProjects\Actua\templates\css" />
-      <recent name="C:\Users\xdan1\PycharmProjects\Actua\staticfiles" />
     </key>
   </component>
   <component name="RunManager">
@@ -161,7 +181,8 @@
       <workItem from="1707372992098" duration="2211000" />
       <workItem from="1707375243171" duration="6768000" />
       <workItem from="1707382165939" duration="939000" />
-      <workItem from="1707520259386" duration="2620000" />
+      <workItem from="1707520259386" duration="21628000" />
+      <workItem from="1707597124129" duration="5940000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <option name="closed" value="true" />
