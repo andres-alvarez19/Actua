@@ -3,7 +3,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -14,7 +13,6 @@ SECRET_KEY = 'django-insecure-h0wa6)+^_vnud6wl%lfmeuzevb$u+)nrii+l2i_pk&5+!1-t0m
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -29,25 +27,30 @@ INSTALLED_APPS = [
     "tailwind",
     "theme",
     'django_browser_reload',
-    'cart',
-    'orders',
-    'payment',
-    'category',
-    'product',
-    'user',
-    'user_profile',
-    'shipping',
+    'apps.cart',
+    'apps.orders',
+    'apps.payment',
+    'apps.category',
+    'apps.product',
+    'apps.user',
+    'apps.user_profile',
+    'apps.shipping',
     'rest_framework.authtoken',
     'rest_framework',
 ]
 
 TAILWIND_APP_NAME = "theme"  # Used for tailwind to work
 
-INTERNAL_IPS = [    # Used for tailwind to work
+INTERNAL_IPS = [  # Used for tailwind to work
     "127.0.0.1"
 ]
 
-NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd" # Path to npm.cmd for windows
+import os
+
+if os.name == 'nt':  # Windows
+    NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
+else:  # Linux and other unix like systems
+    NPM_BIN_PATH = "/usr/bin/npm"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -81,10 +84,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Actua.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 import pymysql
+
 pymysql.install_as_MySQLdb()
 
 DATABASES = {
@@ -97,7 +100,6 @@ DATABASES = {
         'PORT': '22171',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -117,7 +119,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -128,7 +129,6 @@ TIME_ZONE = 'America/Santiago'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
