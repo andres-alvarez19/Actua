@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -16,30 +17,35 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+
 # Application definition
 
-INSTALLED_APPS = [
+DJANGO_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "tienda.apps.TiendaConfig",
     "tailwind",
     "theme",
     'django_browser_reload',
-    'cart',
-    'orders',
-    'payment',
-    'category',
-    'product',
-    'user',
-    'user_profile',
-    'shipping',
-    'rest_framework.authtoken',
-    'rest_framework',
+    'django.shortcuts',
+    
 ]
+
+PROJECT_APPS = ['apps.user','apps.user_profile']
+
+ECOMMERCE_APPS = ['apps.cart','apps.orders','apps.payment','apps.category','apps.product','apps.shipping']
+
+THIRD_PARTY_APPS = [
+    'rest_framework',
+    'rest_framework.authtoken',
+    ]
+
+
+
+INSTALLED_APPS= DJANGO_APPS + PROJECT_APPS + ECOMMERCE_APPS + THIRD_PARTY_APPS
 
 TAILWIND_APP_NAME = "theme"  # Used for tailwind to work
 
@@ -65,7 +71,7 @@ ROOT_URLCONF = 'Actua.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [os.path.join(BASE_DIR, 'templates')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -139,7 +145,22 @@ STATIC_URL = 'staticfiles/'
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+# TRANSBANK = {
+#     'code': 'tu_codigo_de_comercio',
+#     'integration_type': 'TEST',  # Cambia a 'LIVE' en producción
+#     'api_key': 'tu_llave_secreta',
+#     'webpay_cert_path': '/ruta/al/certificado.pem',
+#     'webpay_key_path': '/ruta/a/llave_privada.pem',
+#     'return_url': 'http://tu-domino.com/retorno-transbank/',
+#     'final_url': 'http://tu-domino.com/pago-finalizado/'
+# }
