@@ -5,7 +5,7 @@ from django.contrib.auth import logout
 
 
 def index (request):
-    return render(request, 'index.html')
+    return render(request, 'pages/index.html')
 
 
 def login (request):
@@ -15,7 +15,21 @@ def login (request):
 def profile (request):
     return render(request, 'account/profile.html')
 
+def cart (request):
+    return render(request, 'store/cart.html')
 
 def logout_view (request):
     logout(request)
     return redirect('index')
+
+def about (request):
+    return render(request, 'company/about.html')
+
+def service (request):
+    return render(request, 'company/services.html')
+
+def contact (request):
+    return render(request, 'company/contact.html')
+
+def settings (request):
+    return render(request, 'account/settings.html')

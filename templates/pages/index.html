@@ -1,45 +1,62 @@
 {% load static  %}
 {% load static  tailwind_tags %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     {% tailwind_css %}
     <meta charset="UTF-8">
     <title>Actua SPA</title>
-    {% include 'header.html' %}
+    {% include 'pages/header.html' %}
 </head>
 <body>
 <!-- carrusel -->
-<div class="carousel w-full">
-  <div id="slide1" class="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
-    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide4" class="btn btn-circle">❮</a> 
-      <a href="#slide2" class="btn btn-circle">❯</a>
+<div class="slider w-90 h-90 m-2 relative ">
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 ">
+        <button  class = "back btn btn-circle text-xl ">&#60</button>
+        <button class = "next  btn btn-circle text-xl">&#62</button>
     </div>
-  </div> 
-  <div id="slide2" class="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
-    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide1" class="btn btn-circle">❮</a> 
-      <a href="#slide3" class="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide3" class="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
-    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide2" class="btn btn-circle">❮</a> 
-      <a href="#slide4" class="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide4" class="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
-    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" class="btn btn-circle">❮</a> 
-      <a href="#slide1" class="btn btn-circle">❯</a>
+    <img id="image" src="" class="w-full h-full rounded"  alt="slider image"/>
+</div>
+
+<!-- noticias -->
+<section class="text-gray-600 body-font overflow-hidden">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-12 border">
+        <div class="">
+            <img class="rounded" src="{% static 'assets/images/blog.jpeg' %}" alt="blog image" width="500" height="300">
+        </div>
+      <div class="p-12 md:w-1/2 flex flex-col items-start">
+        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
+        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
+        <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+          <a class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-gray-200">
+            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>1.2K
+          </span>
+          <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+          </span>
+        </div>
+        <a class="inline-flex items-center">
+          <img alt="blog" src="https://dummyimage.com/103x103" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+          <span class="flex-grow flex flex-col pl-4">
+            <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+            <span class="text-gray-400 text-xs tracking-widest mt-0.5">DESIGNER</span>
+          </span>
+        </a>
+      </div>
     </div>
   </div>
-</div>
+</section>
+
 <!-- Productos-->
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
@@ -128,6 +145,7 @@
   </div>
 </section>
 
-{% include 'footer.html' %}
+{% include 'pages/footer.html' %}
+<script src="{% static 'js/slider.js' %}"></script>
 </body>
 </html>
