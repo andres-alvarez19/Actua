@@ -47,8 +47,14 @@ INTERNAL_IPS = [    # Used for tailwind to work
     "127.0.0.1"
 ]
 
-NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd" # Path to npm.cmd for windows
+import os
 
+NPM_BASE_PATH = "/usr/bin/npm"  # Ruta de Linux
+
+if os.name == 'nt':
+    NPM_BASE_PATH = r"C:\Program Files\nodejs\npm.cmd"  # Ruta de Windows
+
+    
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
