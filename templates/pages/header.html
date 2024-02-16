@@ -5,13 +5,13 @@
 <html lang="en" data-theme="mytheme">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="/assets/images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static "/assets/images/logo.png" %}" type="image/x-icon">
     <title>Actua SPA</title>
     {% tailwind_css %}
 </head>
 <body >
   <!-- navbar -->
-  <div class=" navbar bg-neutral text-neutral-content h-20 ">
+  <div class=" navbar border-secondary bg-neutral text-neutral-content h-20 shadow-xl">
     <div class="flex-1 ">
       <a class="btn btn-ghost " href="{% url 'index' %}">
       <img class="w-11 h-10" src="{% static 'assets/images/logo.png' %}" alt="">

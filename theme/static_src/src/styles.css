@@ -6,4 +6,15 @@
   top: 0;
   z-index: 1020;
 }
+.btn-custom {
+    width: 38px;
+    height: 5px;
+    display: inline-block;
+    background-color: #ccced2;
+    color: #1DA1F2; /* Cambia esto al color de texto que desees */
+    text-align: center;
+    line-height: 5px; /* Asegúrate de que esto sea igual a la altura del botón */
+    border: none;
+    cursor: pointer;
+}
 @tailwind utilities;
