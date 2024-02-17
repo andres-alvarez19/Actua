@@ -15,15 +15,15 @@
         <button  class = "back btn btn-circle text-xl ">&#60</button>
         <button class = "next  btn btn-circle text-xl">&#62</button>
     </div>
-    <img id="image" src="" class="w-full h-full rounded"  alt="slider image"/>
+    <img id="image" src="" class="w-full h-full rounded select-none pointer-events-none"  alt="slider image"/>
 </div>
 
 <!-- noticias -->
 <section class="text-gray-600 body-font overflow-hidden px-40">
-  <div class="container px-5 py-10 auto">
-    <div class="flex flex-wrap ">
-        <div class="">
-            <img class="h-full rounded-l-lg" src="{% static 'assets/images/blog.jpeg' %}" alt="blog image" width="500" height="300">
+  <div class="container items-center justify-between px-10 py-10 auto">
+    <div class="flex flex-row ">
+        <div class="auto-rows-max ">
+            <img class="rounded-l-lg h-full" src="{% static 'assets/images/blog.jpeg' %}" alt="blog image" width="500" height="300">
         </div>
       <div class="p-12 md:w-1/2 flex flex-col items-start rounded-r-lg border border-primary">
         <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>

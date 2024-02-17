@@ -49,12 +49,15 @@ INTERNAL_IPS = [    # Used for tailwind to work
 
 import os
 
-if os.name == 'nt':
-    NPM_BASE_PATH = r"C:\Program Files\nodejs\npm.cmd"  # Ruta de Windows
-    print("Utilizando windows path") 
+NPM_BASE_PATH_LINUX = "/usr/bin/npm"  # Ruta de Linux
+NPM_BASE_PATH_WINDOWS = r"C:\Program Files\nodejs\npm.cmd"  # Ruta de Windows
+
+if os.name == 'posix':
+    NPM_BASE_PATH = NPM_BASE_PATH_LINUX
+elif os.name == 'nt':
+    NPM_BASE_PATH = NPM_BASE_PATH_WINDOWS
 else:
-    NPM_BASE_PATH = "/usr/bin/npm"  # Ruta de Linux
-    print("Utilizando unix path") 
+    raise Exception("Sistema operativo no soportado")
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

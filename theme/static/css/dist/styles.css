@@ -2572,6 +2572,10 @@ select {
   border-width: 0;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .static {
   position: static;
 }
@@ -2932,12 +2936,26 @@ select {
   cursor: pointer;
 }
 
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 .resize-none {
   resize: none;
 }
 
 .list-none {
   list-style-type: none;
+}
+
+.auto-rows-max {
+  grid-auto-rows: max-content;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -3213,6 +3231,11 @@ select {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-2 {
