@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ae621d-4824-4d69-bb13-dca303f5be91" name="Changes" comment="Inicio">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/static/js/Comp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -13,6 +14,17 @@
       <change beforePath="$PROJECT_DIR$/static/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static/css/dist/styles.css" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/company/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static/css/dist/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/static_src/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static_src/src/styles.css" afterDir="false" />
+>>>>>>> b3340b392731ee21ae2672a0ed55f1bf9478a0da
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,10 +203,15 @@
       <workItem from="1707774653466" duration="2345000" />
       <workItem from="1707777302172" duration="16949000" />
       <workItem from="1707857023014" duration="19628000" />
+<<<<<<< HEAD
       <workItem from="1708031542514" duration="4730000" />
       <workItem from="1708055654899" duration="608000" />
       <workItem from="1708129010083" duration="248000" />
       <workItem from="1708176558326" duration="1065000" />
+=======
+      <workItem from="1708056610902" duration="53000" />
+      <workItem from="1708058760051" duration="7376000" />
+>>>>>>> b3340b392731ee21ae2672a0ed55f1bf9478a0da
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <option name="closed" value="true" />
