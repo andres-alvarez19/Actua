@@ -47,6 +47,7 @@ INTERNAL_IPS = [    # Used for tailwind to work
     "127.0.0.1"
 ]
 
+<<<<<<< HEAD
 import os
 
 NPM_BASE_PATH_LINUX = "/usr/bin/npm"  # Ruta de Linux
@@ -58,6 +59,10 @@ elif os.name == 'nt':
     NPM_BASE_PATH = NPM_BASE_PATH_WINDOWS
 else:
     raise Exception("Sistema operativo no soportado")
+=======
+from shutil import which
+NPM_BIN_PATH = which("npm")
+>>>>>>> 0bc2464e5aa2de92b9501482ff60718c8a8d927c
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -75,7 +80,7 @@ ROOT_URLCONF = 'Actua.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'static/assets/images/../templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {

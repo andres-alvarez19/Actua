@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74ae621d-4824-4d69-bb13-dca303f5be91" name="Changes" comment="Inicio">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/static/js/Comp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -16,15 +17,41 @@
       <change beforePath="$PROJECT_DIR$/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static/css/dist/styles.css" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/dev/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/dev/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/dev/palette.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/dev/previews.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/dev/useInitial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Actua.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Actua.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> 0bc2464e5aa2de92b9501482ff60718c8a8d927c
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actua/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actua/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/images/blog.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/blog.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/images/login-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/login-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/account/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/company/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/company/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/company/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pages/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/theme/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static/css/dist/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/static_src/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static_src/src/styles.css" afterDir="false" />
+<<<<<<< HEAD
 >>>>>>> b3340b392731ee21ae2672a0ed55f1bf9478a0da
+=======
+      <change beforePath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" afterDir="false" />
+>>>>>>> 0bc2464e5aa2de92b9501482ff60718c8a8d927c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +69,14 @@
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="JSX File" />
+<<<<<<< HEAD
+=======
+        <option value="com.intellij.reactbuddy.palette" />
+        <option value="com.intellij.reactbuddy.previews" />
+        <option value="com.intellij.reactbuddy.index" />
+        <option value="com.intellij.reactbuddy.useInitial" />
+        <option value="com.intellij.reactbuddy.README" />
+>>>>>>> 0bc2464e5aa2de92b9501482ff60718c8a8d927c
       </list>
     </option>
   </component>
@@ -86,6 +121,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -101,6 +139,7 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Django Server.Actua.executor&quot;: &quot;Run&quot;,
+    &quot;ReactCreateComponentLastSelected&quot;: &quot;functionDeclarationComponent&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -108,6 +147,8 @@
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;chop&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.6.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.19&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/xdan1/PycharmProjects/Actua/static/assets/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -115,23 +156,36 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+<<<<<<< HEAD
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+=======
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+>>>>>>> 0bc2464e5aa2de92b9501482ff60718c8a8d927c
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PyCharm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\xdan1\PycharmProjects\Actua\static\assets\images" />
       <recent name="C:\Users\xdan1\PycharmProjects\Actua" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/public" />
+      <recent name="$PROJECT_DIR$/frontend/src/assets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/assets/images" />
       <recent name="C:\Users\xdan1\PycharmProjects\Actua\templates\pages" />
-      <recent name="C:\Users\xdan1\PycharmProjects\Actua\templates\company" />
-      <recent name="C:\Users\xdan1\PycharmProjects\Actua\apps" />
-      <recent name="C:\Users\xdan1\PycharmProjects\Actua\static" />
-      <recent name="C:\Users\xdan1\PycharmProjects\Actua\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.Actua">
@@ -210,8 +264,16 @@
       <workItem from="1708176558326" duration="1065000" />
 =======
       <workItem from="1708056610902" duration="53000" />
+<<<<<<< HEAD
       <workItem from="1708058760051" duration="7376000" />
 >>>>>>> b3340b392731ee21ae2672a0ed55f1bf9478a0da
+=======
+      <workItem from="1708058760051" duration="7497000" />
+      <workItem from="1708177893796" duration="1887000" />
+      <workItem from="1708185491182" duration="3887000" />
+      <workItem from="1708195867954" duration="15649000" />
+      <workItem from="1708366120418" duration="5374000" />
+>>>>>>> 0bc2464e5aa2de92b9501482ff60718c8a8d927c
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <option name="closed" value="true" />

@@ -11,9 +11,9 @@
     height: 5px;
     display: inline-block;
     background-color: #ccced2;
-    color: #1DA1F2; /* Cambia esto al color de texto que desees */
+    color: #1DA1F2;
     text-align: center;
-    line-height: 5px; /* Asegúrate de que esto sea igual a la altura del botón */
+    line-height: 5px;
     border: none;
     cursor: pointer;
 }
