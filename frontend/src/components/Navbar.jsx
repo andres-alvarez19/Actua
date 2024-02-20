@@ -6,7 +6,7 @@ export function Navbar() {
     header.classList.toggle('top-0',window.scrollY > 0);
 });
    return (
-    <nav className=" navbar  border-secondary bg-neutral text-neutral-content h-20 shadow-xl">
+    <nav className=" navbar flex border-secondary bg-neutral text-neutral-content h-20 shadow-xl">
         <div className="flex-1 ">
           <a className="btn btn-ghost " href="/">
               <img className="w-11 h-10" src="../../logo.png" alt=""></img>
