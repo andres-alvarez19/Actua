@@ -47,14 +47,8 @@ INTERNAL_IPS = [    # Used for tailwind to work
     "127.0.0.1"
 ]
 
-import os
-
-if os.name == 'nt':
-    NPM_BASE_PATH = r"C:\Program Files\nodejs\npm.cmd"  # Ruta de Windows
-    print("Utilizando windows path") 
-else:
-    NPM_BASE_PATH = "/usr/bin/npm"  # Ruta de Linux
-    print("Utilizando unix path") 
+from shutil import which
+NPM_BIN_PATH = which("npm")
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -72,7 +66,7 @@ ROOT_URLCONF = 'Actua.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'static/assets/images/../templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {
