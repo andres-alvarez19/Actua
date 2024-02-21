@@ -5,35 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ae621d-4824-4d69-bb13-dca303f5be91" name="Changes" comment="Inicio">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/dev/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/dev/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/dev/palette.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/dev/previews.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/dev/useInitial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Actua.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Actua.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actua/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actua/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/blog.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/blog.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/login-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/login-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/theme/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static/css/dist/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/static_src/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static_src/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +193,7 @@
       <workItem from="1708177893796" duration="1887000" />
       <workItem from="1708185491182" duration="3887000" />
       <workItem from="1708195867954" duration="15649000" />
-      <workItem from="1708366120418" duration="5374000" />
+      <workItem from="1708366120418" duration="6029000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <option name="closed" value="true" />
