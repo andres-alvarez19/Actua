@@ -7,6 +7,7 @@
     <list default="true" id="74ae621d-4824-4d69-bb13-dca303f5be91" name="Changes" comment="Inicio">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/static/js/Comp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1d545db-216d-46de-8f3a-656b2f5fd061.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -52,6 +53,9 @@
 =======
       <change beforePath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" afterDir="false" />
 >>>>>>> 0bc2464e5aa2de92b9501482ff60718c8a8d927c
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> ac16153b0d5141bb4cf25595cb88bf14a9517832
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,8 +276,12 @@
       <workItem from="1708177893796" duration="1887000" />
       <workItem from="1708185491182" duration="3887000" />
       <workItem from="1708195867954" duration="15649000" />
+<<<<<<< HEAD
       <workItem from="1708366120418" duration="5374000" />
 >>>>>>> 0bc2464e5aa2de92b9501482ff60718c8a8d927c
+=======
+      <workItem from="1708366120418" duration="6029000" />
+>>>>>>> ac16153b0d5141bb4cf25595cb88bf14a9517832
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <option name="closed" value="true" />
