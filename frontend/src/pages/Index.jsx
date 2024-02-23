@@ -1,110 +1,13 @@
 import {useState, useEffect, useRef} from 'react';
+import Slider from '../components/Slider';
+import News from '../components/News';
+
+
 export function Index() {
-    const images = [
-        { src: "https://i.ytimg.com/vi/YtU-E5amU_Y/maxresdefault.jpg", alt: 'Image 1' },
-        { src: "https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg", alt: 'Image 2' },
-        { src: "https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg", alt: 'Image 3' },
-        { src: "https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg", alt: 'Image 4' },
-        { src: "https://i.redd.it/5qc099gt7cd61.jpg", alt: 'Image 5' },
-    ];
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const [currentContentIndex, setCurrentContentIndex] = useState(0);
-    const intervalId = useRef(null);
-
-    const changeImage = () => {
-        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    };
-
-    useEffect(() => {
-        intervalId.current = setInterval(changeImage, 5000);
-        return () => clearInterval(intervalId.current);
-    }, []);
-    const handleButtonClick = (index) => {
-        setCurrentImageIndex(index);
-        clearInterval(intervalId.current);
-        intervalId.current = setInterval(changeImage, 5000);
-    };
-
-    // Logica para blog
-    const intervalContent = useRef(null);
-    const [content, setContent] = useState([
-        {
-            image: "../../blog.jpeg",
-            category: "INDUSTRIA",
-            title: "Pinterest DIY dreamcatcher gentrify single-origin coffee",
-            description: "Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric."
-        },
-        {
-            image: "../../blog2.jpeg",
-            category: "TERRENO",
-            title: "Sed ut perspiciatis unde omnis iste natus error sit",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        }
-    ]);
-    const resetInterval = () => {
-        clearInterval(intervalContent.current);
-        intervalContent.current = setInterval(nextContent, 10000);
-    };
-    useEffect(() => {
-        intervalContent.current = setInterval(nextContent, 10000);
-        return () => clearInterval(intervalContent.current);
-    }, []);
-        const nextContent = () => {
-        setCurrentContentIndex((prevIndex) => (prevIndex + 1) % content.length);
-    };
-
-    const prevContent = () => {
-        setCurrentContentIndex((prevIndex) => (prevIndex - 1 < 0 ? content.length - 1 : prevIndex - 1));
-    };
-
     return (
         <div>
-            <div className="slider w-90 h-90 m-2 relative ">
-                <div className="absolute flex justify-center left-5 right-5 bottom-5">
-                {images.map((image, index) => (
-                    <button
-                        className={`btn-custom rounded mr-3 ${currentImageIndex === index ? 'bg-white' : ''}`}
-                        data-nav={index}
-                        key={index}
-                        onClick={() => handleButtonClick(index)}
-                    ></button>
-                ))}
-                </div>
-                <div className=" flex justify-center left-5 right-5 bottom-5">
-                    <img src={images[currentImageIndex].src} alt={images[currentImageIndex].alt}
-                         className="w-full h-96 rounded"/>
-                </div>
-            </div>
-
-        <section className="relative text-gray-600 body-font overflow-hidden px-40 flex md:justify-center ">
-                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 ">
-                <button className="back btn btn-circle text-xl " onClick={() => {prevContent(); resetInterval();}}>&#60;</button>
-                <button className="next  btn btn-circle text-xl" onClick={() => {nextContent(); resetInterval();}}>&#62;</button>
-                </div>
-        <div className="container px-5 py-10 auto">
-            <div className="flex flex-wrap justify-center ">
-                <div className="">
-                    <img className="h-full rounded-l-lg w-96 border-l border-y  border-primary" src={content[currentContentIndex].image} alt="blog image" />
-                </div>
-                <div className="p-12 md:w-1/2 flex flex-col items-start rounded-r-lg border-r border-y border-primary ">
-                    <span
-                        className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">{content[currentContentIndex].category}</span>
-                    <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
-                        {content[currentContentIndex].title}</h2>
-                    <p className="leading-relaxed mb-8">{content[currentContentIndex].description}</p>
-                    <div className="flex items-center flex-wrap mb-4 border-b-2 border-gray-100 mt-auto w-full">
-                        <a className="text-indigo-500 inline-flex items-center">Saber mas
-                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
-                                 fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <Slider></Slider>
+            <News></News>
     <section className="text-gray-600 body-font ">
         <div className="container px-5 pb-24 mx-auto">
             <div className="justify-center text-center pt-6 pb-4 ">
