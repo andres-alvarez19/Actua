@@ -34,7 +34,7 @@ export function News() {
         setCurrentContentIndex((prevIndex) => (prevIndex - 1 < 0 ? content.length - 1 : prevIndex - 1));
     };
     return (
-        <section className="relative text-gray-600 body-font overflow-hidden px-40 flex md:justify-center ">
+        <section className="relative text-gray-600 body-font overflow-hidden px-40 flex md:justify-center shadow-md ">
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 ">
                 <button className="back btn btn-circle text-xl " onClick={() => {
                     prevContent();

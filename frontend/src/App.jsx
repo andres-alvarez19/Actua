@@ -14,7 +14,7 @@ function App(props) {
         document.documentElement.setAttribute('data-theme', theme);
     }, [theme]);
     return (
-        <BrowserRouter>
+        <BrowserRouter >
             <Navbar />
             <Routes>
                 <Route path="/" element={<Index />} />
